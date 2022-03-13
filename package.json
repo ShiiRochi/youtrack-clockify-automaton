@@ -1,0 +1,33 @@
+{
+  "name": "youtrack-clockify-automaton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node cli.js"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "@typescript-eslint/parser": "^5.9.1",
+    "chalk": "^4.1.2",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.0.0",
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "fakebrowser": "^0.0.66",
+    "jsonfile": "^6.1.0",
+    "prettier": "^2.5.1",
+    "recursive-readdir": "^2.2.2",
+    "typescript": "^4.5.4"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "inquirer": "^8.2.0",
+    "lodash.groupby": "^4.6.0"
+  }
+}
